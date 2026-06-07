@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en"  xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pictionary</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <div class="panel">
+
+            <div class="encabezado-titulo">
+
+                <h1 class="titulo">Pictionary</h1>
+
+                <img src="img/lapiz.png"  class="icono-titulo">
+            </div>
+
+            <form class="formulario">
+
+                <div class="campo">
+
+                    <label for="nombre" class="etiqueta"> Nombre de jugador</label>
+
+                    <input type="text" id="nombre" class="entrada" placeholder="Escribe..."    maxlength="20">
+                          
+                           
+                       
+                </div>
+
+                <button type="submit" class="boton boton-principal">Unirse </button>
+
+            </form>
+
+            <p class="estado"> Esperando a que termine la ronda para unirse...
+           </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="picto.js"></script> 
+
+</body>
+
+</html>

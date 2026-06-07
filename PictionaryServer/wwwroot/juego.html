@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Juego</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <div class="panel panel-juego">
+
+            <div class="encabezado">
+
+                <div class="encabezado-titulo">
+
+                    <h1 class="titulo"> Pictionary  </h1>
+                       
+                    <img src="img/lapiz.png"  class="icono-titulo">
+                          
+                </div>
+
+
+                <div class="info" id="info-letras">
+                    Letras: <span id="letras">4</span>
+                </div>
+
+                <div class="info oculto" id="info-palabra">
+                    Palabra: <span id="palabra">MANZANA</span>
+                </div>
+
+                <div class="info">
+                    Puntuación: <span id="puntos">15</span>
+                </div>
+
+                <div class="info">
+                    Turno: <span id="turno">Pedro</span>
+                </div>
+
+                <div class="reloj">
+
+                    <img src="img/circulo.png" alt="Temporizador">
+
+                        
+                    <span class="contador"> 60</span>
+
+                </div>
+
+            </div>
+
+            <div class="contenido">
+
+                <div class="chat">
+
+                    <div class="mensajes" id="mensajes">
+
+                        <div class="mensaje">Pacoloco: manzana </div>
+
+                        <div class="mensaje">Paquita: manzanaaa </div>
+                        <div class="mensaje">GalloOro: manzanaaa </div>
+
+                    </div>
+
+                    <div class="entrada-chat">
+
+                        <input type="text"  id="respuesta" class="entrada"  placeholder="Escribe...">
+                             
+                               
+                        <button class="boton-enviar"> ▶ </button>
+
+                    </div>
+
+                </div>
+
+                <div class="zona-dibujo">
+
+
+                    <div class="herramientas oculto">
+
+                        <button class="color"></button>
+                        <button class="color"></button>
+                        <button class="color"></button>
+                        <button class="color"></button>
+                        <button class="color"></button>
+
+                    </div>
+
+                    <canvas id="pizarra" class="pizarra" width="900"height="500">
+                    </canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="picto.js"></script>
+
+</body>
+
+</html>
