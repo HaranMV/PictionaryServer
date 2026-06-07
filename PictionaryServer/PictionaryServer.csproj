@@ -10,7 +10,7 @@
     <Folder Include="Hubs\" />
     <Folder Include="Models\" />
     <Folder Include="Services\" />
-    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
 </Project>
